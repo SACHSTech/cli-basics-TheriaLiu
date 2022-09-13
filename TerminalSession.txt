@@ -1,1 +1,29 @@
-
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main ✗) $ pwd
+/workspaces/cli-basics-TheriaLiu
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main ✗) $ ls
+cli-basics-TheriaLiu  README.md  TerminalSession.txt
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main ✗) $ mkdir CLIBasicsFolder
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main ✗) $ ls
+CLIBasicsFolder  cli-basics-TheriaLiu  README.md  TerminalSession.txt
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main ✗) $ cd CLIBasicsFolder/
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ touch myfile.txt
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ echo Theria Liu ICS4U >> myfile.txt
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ ls
+myfile.txt
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ cat myfile.txt 
+Theria Liu ICS4U
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ cp myfile.txt myfile_copy.txt
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ ls
+myfile_copy.txt  myfile.txt
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ mv myfile_copy.txt myfile2.txt
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ ls
+myfile2.txt  myfile.txt
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ mv myfile2.txt ../myfile2.txt
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ ls
+myfile.txt
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ pwd
+/workspaces/cli-basics-TheriaLiu/CLIBasicsFolder
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ cd ..
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main ✗) $ pwd
+/workspaces/cli-basics-TheriaLiu
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main ✗) $ 
