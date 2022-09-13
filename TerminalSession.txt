@@ -1,1 +1,54 @@
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main ✗) $ pwd
+/workspaces/cli-basics-TheriaLiu
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main ✗) $ mkdir CLIBasicsFolder
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main ✗) $ ls
+CLIBasicsFolder  cli-basics-TheriaLiu  myfile2.txt  README.md  TerminalSession.txt
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main ✗) $ cd CLIBasicsFolder/
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ touch myfile.txt
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ echo Theria Liu ICS4U >> myfile.txt 
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ cat myfile.txt 
+Theria Liu ICS4U
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ cp myfile.txt myfile_copy.txt
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ mv myfile_copy.txt ../myfile2.txt 
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ ls
+myfile.txt
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ pwd
+/workspaces/cli-basics-TheriaLiu/CLIBasicsFolder
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ cd ..
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main ✗) $ pwd
+/workspaces/cli-basics-TheriaLiu
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main ✗) $ rm -r CLIBasicsFolder/myfile.txt 
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main ✗) $ ls
+CLIBasicsFolder  cli-basics-TheriaLiu  myfile2.txt  README.md  TerminalSession.txt
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main ✗) $ cd CLIBasicsFolder/
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu/CLIBasicsFolder (main ✗) $ cd ..
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main ✗) $ ls
+CLIBasicsFolder  cli-basics-TheriaLiu  myfile2.txt  README.md  TerminalSession.txt
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main ✗) $ rmdir CLIBasicsFolder/
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main ✗) $ ls
+cli-basics-TheriaLiu  myfile2.txt  README.md  TerminalSession.txt
 
+
+
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main ✗) $ git add -A
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main) $ git commit -m "complete CLI assignment"
+[main bf8ba33] complete CLI assignment
+ 2 files changed, 13 insertions(+), 14 deletions(-)
+ delete mode 100644 CLIBasicsFolder/myfile.txt
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main) $ git commit -m "complete CLI assignment"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main) $ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 445 bytes | 445.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/SACHSTech/cli-basics-TheriaLiu
+   a72d110..bf8ba33  main -> main
+@TheriaLiu ➜ /workspaces/cli-basics-TheriaLiu (main) $ 
